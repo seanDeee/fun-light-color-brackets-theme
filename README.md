@@ -1,6 +1,18 @@
 # Glowing Brackets Theme
 
--A Simple Glowing Brackets Theme.
+A Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited with HTML, CSS, PHP, Javascript....
+
+### Installation
+1. Select **Brackets > File > Extension Manager...**
+2. Search Glowing Brackets Theme.
+3. Click on the **Install** button.
+
+**OR**
+
+1. Download the **.zip** file
+2. In Brackets, navigate to **Help > Show Extensions Folder > User**
+3. Place the **.zip** file in the **User** folder
+4. Refresh Brackets and select **Glowing Brackets Theme** from **View > Themes...**
 
 ## Colors
 
@@ -13,3 +25,5 @@ Background | ![#202020](https://placehold.it/15/202020/ffffff?text=+) `#202020`
 Foreground | ![#cccccc](https://placehold.it/15/cccccc/000000?text=+) `#cccccc`
 Comment | ![#8a8a80](https://placehold.it/15/8a8a80/000000?text=+) `#8a8a80`
 String Color | ![#9fdf9f](https://placehold.it/15/9fdf9f/000000?text=+) `#9fdf9f`
+
+
