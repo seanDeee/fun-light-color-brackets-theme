@@ -2,7 +2,7 @@
 
 
 A Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited with HTML, CSS, PHP, Javascript....
-
+inspired of Yesterday Morning Theme. 
 
 ### Installation
 1. Select **Brackets > File > Extension Manager...**
