@@ -6,7 +6,7 @@ inspired of Yesterday Morning Theme.
 
 ### Installation
 1. Select **Brackets > File > Extension Manager...**
-2. Search Glowing Brackets Theme.
+2. Search [Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/).
 3. Click on the **Install** button.
 
 **OR**
