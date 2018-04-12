@@ -18,7 +18,7 @@ A Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited w
 
 
 ## Screenshot
-![Glowing Brackets Theme](https://raw.githubusercontent.com/seanDeee/glowing-brackets-theme/html.png)
+![Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/blob/master/screenshots/html.png?raw=true)
 ![Glowing Brackets Theme](https://raw.githubusercontent.com/seanDeee/glowing-brackets-theme/css.png)
 ![Glowing Brackets Theme](https://raw.githubusercontent.com/seanDeee/glowing-brackets-theme/js.png)
 ![Glowing Brackets Theme](https://raw.githubusercontent.com/seanDeee/glowing-brackets-theme/php.png)
