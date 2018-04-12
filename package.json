@@ -1,0 +1,13 @@
+{
+    "name": "seandeee.glowingtheme",
+    "title": "Glowing Brackets Theme",
+    "description": "A Glowing Brackets theme, Note: letters might look blurred when the font size is too small.",
+    "homepage": "https://github.com/seanDeee/glowing-brackets-theme",
+    "version": "1.1.0",
+    "author": "Sean Dee",
+    "theme": {
+        "file": "theme.less",
+        "dark": true
+    },
+    "keywords": ["glow", "glowing", "dark", "bright", "theme", "glowing theme"]
+}
