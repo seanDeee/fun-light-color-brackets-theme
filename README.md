@@ -40,3 +40,9 @@ String Color | ![#9fdf9f](https://placehold.it/15/9fdf9f/000000?text=+) `#9fdf9f
 
 
 **Note:** It is suitable for small font size because the text will look blurred.
+
+
+
+
+## Coming soon...... Updates 1.9.2
+...New Colors and Font
