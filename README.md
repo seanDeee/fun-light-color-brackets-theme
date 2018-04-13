@@ -1,12 +1,12 @@
-# Glowing Brackets Theme
+# Light Glowing Brackets Theme
 
 
-A Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited with HTML, CSS, PHP, Javascript....
+A Light Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited with HTML, CSS, PHP, Javascript....
 inspired of Yesterday Morning Theme. 
 
 ### Installation
 1. Select **Brackets > File > Extension Manager...**
-2. Search [Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/).
+2. Search [Light Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/).
 3. Click on the **Install** button.
 
 **OR**
@@ -14,7 +14,7 @@ inspired of Yesterday Morning Theme.
 1. Download the **.zip** file
 2. In Brackets, navigate to **Help > Show Extensions Folder > User**
 3. Place the **.zip** file in the **User** folder
-4. Refresh Brackets and select **Glowing Brackets Theme** from **View > Themes...**
+4. Refresh Brackets and select **Light Glowing Brackets Theme** from **View > Themes...**
 
 
 ## Screenshot
