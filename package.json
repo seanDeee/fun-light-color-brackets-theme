@@ -1,13 +1,13 @@
 {
     "name": "seandeee.glowingtheme",
-    "title": "Glowing Brackets Theme",
-    "description": "A Glowing Brackets theme, A Very eye catching theme.",
+    "title": "Light Glowing Brackets Theme",
+    "description": "A Light Glowing Brackets theme, An Eye Catching Brackets Theme! Carry on and Try it now!!",
     "homepage": "https://github.com/seanDeee/glowing-brackets-theme",
-    "version": "1.1.0",
+    "version": "1.8.0",
     "author": "Sean Dee",
     "theme": {
         "file": "theme.less",
         "dark": true
     },
-    "keywords": ["glow", "glowing", "dark", "bright", "theme", "glowing theme" , "Glowing Brackets Theme", "glowing brackets theme"]
+    "keywords": ["light", "glowing", "dark", "bright", "theme", "light glowing theme"]
 }
