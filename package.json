@@ -3,7 +3,7 @@
     "title": "Light Glowing Brackets Theme",
     "description": "A Light Glowing theme, Simple Light Glow theme with a custom font style just for your Brackets. Hope  you like it!",
     "homepage": "https://github.com/seanDeee/glowing-brackets-theme",
-    "version": "1.9.5",
+    "version": "1.9.6",
     "author": "Sean Dee",
     "theme": {
         "file": "theme.less",
