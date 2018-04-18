@@ -1,5 +1,6 @@
 # Light Glowing Brackets Theme
 
+[![Version](https://badges.ml/glowing-brackets-theme/version.svg)](https://brackets-extension-badges.github.io#glowing-brackets-theme)
 
 A Light Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited with HTML, CSS, PHP, Javascript....
 inspired of Yesterday Morning Theme. 
@@ -44,5 +45,7 @@ String Color | ![#9fdf9f](https://placehold.it/15/9fdf9f/000000?text=+) `#9fdf9f
 
 
 
-## Coming soon...... Updates 1.9.2
-...New Colors and Font
+## Version 1.9.5
+### New Updates
+1. New Colors
+2. Added a Custom Font Style
