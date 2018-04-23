@@ -1,6 +1,6 @@
 # Fun Light Colors Brackets Theme
 
-[![Version](https://badges.ml/seandeee.glowingtheme/version.svg)](https://brackets-extension-badges.github.io#seandeee.glowingtheme)
+[![Version](https://badges.ml/seandeee.funlightcolors/version.svg)](https://brackets-extension-badges.github.io#seandeee.funlightcolors)
 
 A Light Color Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited with HTML, CSS, PHP, Javascript....
 inspired of Yesterday Morning Theme. 
