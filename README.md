@@ -1,13 +1,13 @@
-# Light Glowing Brackets Theme
+# Fun Light Colors Brackets Theme
 
 [![Version](https://badges.ml/seandeee.glowingtheme/version.svg)](https://brackets-extension-badges.github.io#seandeee.glowingtheme)
 
-A Light Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited with HTML, CSS, PHP, Javascript....
+A Light Color Glowing theme for [Brackets](https://github.com/adobe/brackets/) very suited with HTML, CSS, PHP, Javascript....
 inspired of Yesterday Morning Theme. 
 
 ### Installation
 1. Select **Brackets > File > Extension Manager...**
-2. Search [Light Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/).
+2. Search [Fun Light Colors Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/).
 3. Click on the **Install** button.
 
 **OR**
@@ -15,7 +15,7 @@ inspired of Yesterday Morning Theme.
 1. Download the **.zip** file
 2. In Brackets, navigate to **Help > Show Extensions Folder > User**
 3. Place the **.zip** file in the **User** folder
-4. Refresh Brackets and select **Light Glowing Brackets Theme** from **View > Themes...**
+4. Refresh Brackets and select **Fun Light Colors Brackets Theme** from **View > Themes...**
 
 
 ## Screenshot
@@ -41,11 +41,3 @@ String Color | ![#9fdf9f](https://placehold.it/15/9fdf9f/000000?text=+) `#9fdf9f
 
 
 **Note:** It is suitable for small font size because the text will look blurred.
-
-
-
-
-## Version 1.9.5
-### New Updates
-1. New Colors
-2. Added a Custom Font Style
