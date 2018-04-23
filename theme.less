@@ -1,4 +1,4 @@
-/* Default Colors */
+/* Colors */
 
 @white: #ffffff;
 @light: #f2f2f2;
@@ -15,34 +15,35 @@
 @red: #f2777a;
 /*Custom Colors */
 
-@htmltagcolor: #8cb5f3; //html tag color 80bfff
-@var1: #99ccff; //variable1 custom
-@var2: #f6a2a3; //variable2 custom df9fbf
-@var3: #e6b3cc; //variable2 custom df9fbf
-@cssvalue: #88dda4; //CSS value custom
-@cssclass: #ff9999; //css class custom
-@jsvariable: #ff9933; //js variable custom
-@htmlattribute: #ffb980; //html attribute custom
-@stringcolor: #9fdf9f; //string color custom
-/* Editor */
+@htmltagcolor: #99ccff; //99ccffhtml tag color 99ccff
+@htmlattribute: #ff9999;  // html attribute custom
+@stringcolor: #ffc299; //string color custom
+@jsvariable: #f27375; //js variable custom
+@var1: #bee7b1; //variable1ffec99 custom (js var, function, if , else )
+@var2: #d1b3ff; //variable2 custom df9fbf
+@var3: #99e6ff; //variable2 custom df9fbf
+@cssvalue: #ffc299; //CSS value custom
+@cssclass: #9999ff; //css class custom
+@numbercstm: #ff4d4d; //custom numbers 
+/* Editor styling */
 
-@background: #202020; //  background
-@foreground: #cccccc; //  foreground
+@background: #262626; // Code background
+@foreground: #cccccc; // Code foreground
 @comment: #8a8a80; // Comment color
-@comment-active: #adada6; //  active comment
+@comment-active: #adada6; // Comment active 
 @cursor: #ffffff; // Cursor color 
 @activeline-background: rgb(64, 64, 64, 0.2); // Active line
 @activeline-foreground: rgba(0, 0, 0, 0.3);
 @matchingtag-background: rgba(89, 89, 89, 0.7); // Matching html tag
 @selected-background: rgba(255, 255, 255, 0.08); // Selected text
 @matchingbracket-background: rgba(255, 255, 255, .5); // Matching bracket
-/* Inline  */
+/* Inline styling */
 
 @string: @stringcolor; // String
 @tag: @htmltagcolor; // HTML tag and primary variable
-@variable: @yellow; // JS Var
+@variable: @jsvariable; // JS Var
 @variable2: @light; // Alt variable
-@number: @orangered; // Numb #
+@number: @numbercstm; // Numb #
 @definition: @cssvalue; // CSS value
 @keyword: @var1; // CSS !important, JavaScript variable definition and function
 @operator: @beige; // Math
@@ -59,7 +60,7 @@
 .CodeMirror-scroll {
     background: @background;
     color: @foreground;
-    line-height: 2.1;
+    line-height: 1.9;
 } // Overlay
 .CodeMirror-selected {
     background: @selected-background !important;
@@ -69,52 +70,64 @@
 } // Line numbers
 .cm-comment {
     color: @comment !important;
+    text-shadow: 0 0 8px @comment;
 }
 
 .cm-keyword {
     color: @keyword;
     text-shadow: 0 0 8px @keyword;
+
 } // Keyword
 .cm-atom {
     color: @definition;
     text-shadow: 0 0 8px @definition;
+
 } // Definition
 .cm-number {
     color: @number;
     text-shadow: 0 0 8px @number;
+
 } // Number
 .cm-def {
     color: @definition;
     text-shadow: 0 0 8px @definition;
+
 } // Definition
 .cm-variable {
     color: @var2;
     text-shadow: 0 0 8px @var2;
+
 } // Variable
 span.cm-variable-2 {
     color: @var3;
     text-shadow: 0 0 8px @var3;
+
 } // Variable 2
 span.cm-tag {
     color: @tag;
     text-shadow: 0 0 8px @tag;
+
 } // Tag
 span.cm-variable-3,
 span.cm-def {
     color: @variable;
     text-shadow: 0 0 8px @variable;
+
 } // Variable
 .cm-operator {
     color: @operator;
     text-shadow: 0 0 8px @operator;
+
 } // Math
 .cm-string {
     color: @string;
     text-shadow: 0 0 8px @string;
+
 } // String
 .cm-string-2 {
     color: @string;
     text-shadow: 0 0 8px @string;
+
 }
 
 .cm-meta {
@@ -123,28 +136,28 @@ span.cm-def {
 } // Meta
 .cm-builtin {
     color: @id;
-    text-shadow: 0 0 8px @id;
 } // Built in and id
 .cm-tag {
     color: @tag;
-    text-shadow: 0 0 8px @tag;
-} // Tags 
+} // Tag
 .cm-attribute {
     color: @attribute;
     text-shadow: 0 0 8px @attribute;
-} // Attributes
+
+} // Attribute
 .cm-header {
     color: @attribute;
     text-shadow: 0 0 8px @attribute;
+
 } // Header
 .cm-hr {
     color: @comment;
-    text-shadow: 0 0 8px @comment;
+
 }
 
 .cm-link {
     color: @operator;
-    text-shadow: 0 0 8px @operator;
+
 }
 
 .cm-error {
@@ -155,10 +168,12 @@ span.cm-def {
 .cm-qualifier {
     color: @qualifier;
     text-shadow: 0 0 8px @qualifier;
+
 } // Qualifier
 .cm-property {
     color: @property;
     text-shadow: 0 0 8px @property;
+
 } // Property
 .cm-quote {
     color: @keyword
