@@ -1,9 +1,9 @@
 {
-    "name": "seandeee.glowingtheme",
-    "title": "Light Glowing Brackets Theme",
-    "description": "A Light Glowing theme, Simple Light Glow theme with a custom font style just for your Brackets. Hope  you like it!",
-    "homepage": "https://github.com/seanDeee/glowing-brackets-theme",
-    "version": "1.9.6",
+    "name": "seandeee.funlightcolors",
+    "title": "Fun Light Color Brackets Theme",
+    "description": "A Light Glowing Colors theme, Simple Light Glow Color for your Codes.",
+    "homepage": "https://github.com/seanDeee/fun-light-color-brackets-theme",
+    "version": "1.0.0",
     "author": "Sean Dee",
     "theme": {
         "file": "theme.less",
