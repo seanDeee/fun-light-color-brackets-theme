@@ -1,9 +1,9 @@
 {
     "name": "seandeee.funlightcolors",
     "title": "Fun Light Color Brackets Theme",
-    "description": "A Light Glowing Colors theme, Simple Light Glow Color for your Codes.",
+    "description": "A Simple Fun Light Colors Glows in your Code, Very Suitable for HTML, CSS, JAVASCRIPT and PHP codes, Have it a try. ",
     "homepage": "https://github.com/seanDeee/fun-light-color-brackets-theme",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "author": "Sean Dee",
     "theme": {
         "file": "theme.less",
