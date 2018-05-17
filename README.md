@@ -18,15 +18,6 @@ inspired of Yesterday Morning Theme.
 4. Refresh Brackets and select **Fun Light Colors Brackets Theme** from **View > Themes...**
 
 
-## Screenshot
-![Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/blob/master/screenshots/html.png?raw=true)
-![Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/blob/master/screenshots/css.png?raw=true)
-![Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/blob/master/screenshots/js.png?raw=true)
-![Glowing Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/blob/master/screenshots/php.png?raw=true)
-
-
-
-
 ## Colors
 
 Palette | Hex Code
