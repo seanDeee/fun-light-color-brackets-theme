@@ -1,4 +1,4 @@
-# Fun Light Colors Brackets Theme
+# Fun Live Color
 
 [![Version](https://badges.ml/seandeee.funlightcolors/version.svg)](https://brackets-extension-badges.github.io#seandeee.funlightcolors)
 
@@ -7,7 +7,7 @@ inspired of Yesterday Morning Theme.
 
 ### Installation
 1. Select **Brackets > File > Extension Manager...**
-2. Search [Fun Light Colors Brackets Theme](https://github.com/seanDeee/glowing-brackets-theme/).
+2. Search [Fun Live Color](https://github.com/seanDeee/glowing-brackets-theme/).
 3. Click on the **Install** button.
 
 **OR**
