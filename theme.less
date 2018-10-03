@@ -13,18 +13,19 @@
 @purple: #D6ACD6;
 @orange: #ffab64;
 @red: #f2777a;
+@php: #9c27b0;
 /*Custom Colors */
 
-@htmltagcolor: #f2777a; //99ccffhtml tag color 99ccff
-@htmlattribute: #ffbb99;  // html attribute custom
-@stringcolor: #bee7b1; // bee7b1 string color custom
-@jsvariable: #f27375; //js variable custom
-@var1: #bee7b1; //variable1ffec99 custom (js var, function, if , else )
-@var2: #d1b3ff; //variable2 custom df9fbf
-@var3: #99e6ff; //variable2 custom df9fbf
-@cssvalue: #ffc299; //CSS value custom
-@cssclass: #9999ff; //css class custom
-@numbercstm: #ff4d4d; //custom numbers 
+@htmltagcolor: #9999ff;
+@htmlattribute: #f27375;
+@stringcolor: #bee7b1;
+@jsvariable: #249d7f;
+@var1: #fffccc;
+@var2: #d1b3ff;
+@var3: #99e6ff;
+@cssvalue: #7561ff;
+@cssclass: #f8b068;
+@numbercstm: #ed6e55;
 /* Editor styling */
 
 //@background: rgb(26, 26, 26, 15); // Code background
@@ -38,7 +39,7 @@
 @activeline-foreground: rgba(0, 0, 0, 0.3);
 @matchingtag-background: rgba(89, 89, 89, 0.7); // Matching html tag
 @selected-background: rgba(255, 255, 255, 0.08); // Selected text
-@matchingbracket-background: rgba(255, 255, 255, .5); // Matching bracket
+@matchingbracket-background: rgba(102, 204, 255, .5); // Matching bracket
 /* Inline styling */
 
 @string: @stringcolor; // String
@@ -49,11 +50,11 @@
 @definition: @cssvalue; // CSS value
 @keyword: @var1; // CSS !important, JavaScript variable definition and function
 @operator: @beige; // Math
-@meta: @dark; // DOCTYPE and PHP background
+@meta: @php; // DOCTYPE and PHP background
 @meta-color: @light; // DOCTYPE and PHP font color
-@id: @purple; // CSS ID, built in
+@id: #f8b068; // CSS ID, built in
 @attribute: @htmlattribute; // HTML attr
-@property: @gray; // CSS key
+@property: #6ce890; // CSS key
 @qualifier: @cssclass; // CSS class
 @error: @red; // Error!
 /* Styles */
@@ -63,15 +64,22 @@
     background: @background;
     color: @foreground;
     line-height: 1.9;
-} // Overlay
+}
+
+// Overlay
 .CodeMirror-selected {
-    background: @selected-background !important;
-} // Selected text
+    background: @selected-background  !important;
+    border-bottom: 2px solid #ff6666;
+}
+
+// Selected text
 .CodeMirror-linenumber {
     color: @comment;
-} // Line numbers
+}
+
+// Line numbers
 .cm-comment {
-    color: @comment !important;
+    color: @comment  !important;
     text-shadow: 0 0 8px @comment;
 }
 
@@ -79,120 +87,155 @@
     color: @keyword;
     text-shadow: 0 0 8px @keyword;
 
-} // Keyword
+}
+
+// Keyword
 .cm-atom {
     color: @definition;
     text-shadow: 0 0 8px @definition;
+}
 
-} // Definition
+// Definition
 .cm-number {
     color: @number;
     text-shadow: 0 0 8px @number;
+}
 
-} // Number
+// Number
 .cm-def {
     color: @definition;
     text-shadow: 0 0 8px @definition;
+}
 
-} // Definition
+// Definition
 .cm-variable {
     color: @var2;
     text-shadow: 0 0 8px @var2;
+}
 
-} // Variable
+// Variable
 span.cm-variable-2 {
     color: @var3;
     text-shadow: 0 0 8px @var3;
+}
 
-} // Variable 2
+// Variable 2
 span.cm-tag {
     color: @tag;
     text-shadow: 0 0 8px @tag;
+}
 
-} // Tag
+// Tag
 span.cm-variable-3,
 span.cm-def {
     color: @variable;
     text-shadow: 0 0 8px @variable;
+}
 
-} // Variable
+// Variable
 .cm-operator {
     color: @operator;
     text-shadow: 0 0 8px @operator;
+}
 
-} // Math
+// Math
 .cm-string {
     color: @string;
     text-shadow: 0 0 8px @string;
+}
 
-} // String
+// String
 .cm-string-2 {
     color: @string;
     text-shadow: 0 0 8px @string;
-
 }
 
 .cm-meta {
     background: @meta;
     color: @meta-color;
-} // Meta
+    border-radius: 2px;
+}
+
+// Meta
 .cm-builtin {
     color: @id;
-} // Built in and id
+}
+
+// Built in and id
 .cm-tag {
     color: @tag;
-} // Tag
+}
+
+// Tag
 .cm-attribute {
     color: @attribute;
     text-shadow: 0 0 8px @attribute;
 
-} // Attribute
+}
+
+// Attribute
 .cm-header {
     color: @attribute;
     text-shadow: 0 0 8px @attribute;
+}
 
-} // Header
+// Header
 .cm-hr {
     color: @comment;
-
 }
 
 .cm-link {
     color: @operator;
-
 }
 
 .cm-error {
-    color: @error;
-    background: RGBA(245, 119, 120, .1);
+    background: #ed5c65;
+    color: #fff;
+    border-radius: 2px;
+
+    /*color: @error;
+    background: RGBA(245, 119, 120, .1);*/
 }
 
 .cm-qualifier {
     color: @qualifier;
     text-shadow: 0 0 8px @qualifier;
+}
 
-} // Qualifier
+// Qualifier
 .cm-property {
     color: @property;
     text-shadow: 0 0 8px @property;
 
-} // Property
+}
+
+// Property
 .cm-quote {
     color: @keyword
-} // Quote
+}
+
+// Quote
 .cm-link,
 .cm-link.cm-variable-2 {
-    color: @darkblue !important
-} // Links
+    color: @darkblue  !important
+}
+
+// Links
 .cm-em {
     color: @purple
-} // Italic
+}
+
+// Italic
 .cm-strong {
     color: @orangered
-} // Bold
+}
+
+// Bold
 .cm-image {
     color: @darkblue
-} // Image
+}
+
+// Image
 .cm-image-marker {
     color: @purple
 }
@@ -212,16 +255,22 @@ span.cm-def {
     outline: 1px solid #888;
     color: white !important;
     background: @matchingbracket-background;
+    border-bottom: 2px solid #ff6666;
+    border-radius: 2px;
 }
 
 .CodeMirror-activeline .cm-comment {
-    color: @comment-active !important;
-} // Active comment
+    color: @comment-active  !important;
+}
+
+// Active comment
 .CodeMirror-matchingtag {
     background: @matchingtag-background;
-} // Matching tag
+}
+
+// Matching tag
 .CodeMirror .CodeMirror-cursor {
-    border-left: 1px solid @cursor !important;
+    border-left: 1px solid @cursor  !important;
 }
 
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
@@ -244,7 +293,7 @@ span.cm-def {
 }
 
 .CodeMirror-gutter-elt {
-    color: @comment !important;
+    color: @comment  !important;
 }
 
 .CodeMirror-activeline .CodeMirror-gutter-elt {
@@ -257,15 +306,19 @@ span.cm-def {
 
 .CodeMirror-activeline-background,
 .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background: @activeline-background !important;
+    background: @activeline-background  !important;
 }
 
 .cm-meta.CodeMirror-searching {
-    background: #f5ee92 !important;
-    color: #4e4225 !important;
+    background: #000 !important;
+    color: #fff !important;
+    /*     background: #f5ee92 !important;
+    color: #4e4225 !important;*/
+    border-bottom: 2px solid #ff6666;
 }
 
 .cm-meta.CodeMirror-searching.searching-current-match {
-    background: #f5ee92 !important;
-    color: #4e4225 !important;
+    background: #000 !important;
+    color: #fff !important;
+    border-bottom: 2px solid #ff6666;
 }
