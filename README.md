@@ -15,7 +15,7 @@ inspired of Yesterday Morning Theme.
 1. Download the **.zip** file
 2. In Brackets, navigate to **Help > Show Extensions Folder > User**
 3. Place the **.zip** file in the **User** folder
-4. Refresh Brackets and select **Fun Light Colors Brackets Theme** from **View > Themes...**
+4. Refresh Brackets and select **Fun Live Color** from **View > Themes...**
 
 
 ## Colors
